@@ -17,3 +17,13 @@ def multiply(j,f):
 def remainder(x,y):
     answer=x%y
     return answer
+# def sum(*numbers):
+#     answer=0
+#     for number in numbers:
+#         answer+=number
+#     return answer 
+def multiplyy(*numbers):
+    answer=1
+    for number in numbers:
+        answer*=number
+    return answer
